@@ -18,7 +18,7 @@ export const metadata: Metadata = {
         },
     },
 }
-export const dynamic = 'force-static'
+export const dynamic = 'auto'
 
 export default function RootLayout({
                                        children,
