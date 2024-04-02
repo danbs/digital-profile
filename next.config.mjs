@@ -6,6 +6,8 @@ import remarkGfm from 'remark-gfm'
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
   output: 'export',
+  images: { unoptimized: true },
+  distDir: 'out',
 }
 
 const withMDX = nextMDX({

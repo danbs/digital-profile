@@ -4,7 +4,6 @@ import {Providers} from '@/app/providers'
 import {Layout} from '@/components/Layout'
 
 import '@/styles/tailwind.css'
-
 export const metadata: Metadata = {
     title: {
         template: '%s - Dan Sanchez',
