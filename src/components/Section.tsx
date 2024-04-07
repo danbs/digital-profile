@@ -1,14 +1,13 @@
-import { useId } from 'react'
+import React, { useId } from "react";
 
-export function Section({
+const Section = ({
   title,
   children,
 }: {
-  title: string
-  children: React.ReactNode
-}) {
-  let id = useId()
-
+  title: string;
+  children: React.ReactNode;
+}) => {
+  const id = useId();
   return (
     <section
       aria-labelledby={id}
@@ -24,5 +23,7 @@ export function Section({
         <div className="md:col-span-3">{children}</div>
       </div>
     </section>
-  )
-}
+  );
+};
+
+export default Section;

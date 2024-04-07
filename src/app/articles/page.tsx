@@ -1,11 +1,10 @@
-import { type Metadata } from 'next'
+import { Card } from "@/components/Card";
+import SimpleLayout from "@/components/SimpleLayout";
+import { ArticleWithSlug, getAllArticles } from "@/lib/article";
+import { formatDate } from "@/lib/formateDate";
+import React from "react";
 
-import { Card } from '@/components/Card'
-import { SimpleLayout } from '@/components/SimpleLayout'
-import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
-import { formatDate } from '@/lib/formatDate'
-
-function Article({ article }: { article: ArticleWithSlug }) {
+const Article = ({ article }: { article: ArticleWithSlug }) => {
   return (
     <article className="md:grid md:grid-cols-4 md:items-baseline">
       <Card className="md:col-span-3">
@@ -31,21 +30,14 @@ function Article({ article }: { article: ArticleWithSlug }) {
         {formatDate(article.date)}
       </Card.Eyebrow>
     </article>
-  )
-}
+  );
+};
 
-export const metadata: Metadata = {
-  title: 'Articles',
-  description:
-    'All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.',
-}
-
-export default async function ArticlesIndex() {
-  let articles = await getAllArticles()
-
+const AriclePage = async () => {
+  const articles = await getAllArticles();
   return (
     <SimpleLayout
-      title="Full-stack Developer @ Freelance | Ruby on Rails | JavaScript | PHP | HTML | CSS | Client Focused"
+      title="Writing on software design, company building, and the aerospace industry."
       intro="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
@@ -56,5 +48,7 @@ export default async function ArticlesIndex() {
         </div>
       </div>
     </SimpleLayout>
-  )
-}
+  );
+};
+
+export default AriclePage;

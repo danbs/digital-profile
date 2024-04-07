@@ -1,16 +1,17 @@
-import { Container } from '@/components/Container'
+import React from "react";
+import Container from "./Container";
 
-export function SimpleLayout({
+const SimpleLayout = ({
   title,
   intro,
   children,
 }: {
-  title: string
-  intro: string
-  children?: React.ReactNode
-}) {
+  title: string;
+  intro: string;
+  children: React.ReactNode;
+}) => {
   return (
-    <Container className="mt-16 sm:mt-32">
+    <Container className="w-full">
       <header className="max-w-2xl">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
           {title}
@@ -21,5 +22,7 @@ export function SimpleLayout({
       </header>
       {children && <div className="mt-16 sm:mt-20">{children}</div>}
     </Container>
-  )
-}
+  );
+};
+
+export default SimpleLayout;
