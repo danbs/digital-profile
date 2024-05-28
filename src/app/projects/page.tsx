@@ -55,7 +55,7 @@ const ProjectPage = () => {
         },
         {
             name: "SwiftThis",
-            status: 'offline',
+            status: 'archived',
             description:
                 "CRM for leads management tool",
             link: {href: "https://admin.swiftthis.com/", label: "admin.swiftthis.com"},
@@ -89,25 +89,17 @@ const ProjectPage = () => {
                             <Card.Link href={project.link.href}>{project.name}</Card.Link>
                             &nbsp;
                             &nbsp;
-                            {/*{ if (project.status === 'active'){*/}
-                            {/*        return(*/}
-                            {/*            <span*/}
-                            {/*            className="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">*/}
-                            {/*            Offline*/}
-                            {/*            </span>*/}
-                            {/*            <span*/}
-                            {/*            className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">*/}
-                            {/*            Archived*/}
-                            {/*            </span>*/}
-                            {/*            <span*/}
-                            {/*            className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">*/}
-                            {/*            Online*/}
-                            {/*            </span>*/}
-                            {/*    )*/}
+                            {project.status === 'active' ? <span
+                                className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+                                        Online
+                                        </span> : project.status === 'offline' ? <span
+                                className="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+                                        Offline
+                                        </span> : project.status === 'archived' ? <span
+                                className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
+                                        Archived
+                                        </span> : ''}
 
-                            {/*    }*/}
-
-                            {/*}*/}
 
                         </h2>
 
