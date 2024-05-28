@@ -1,4 +1,8 @@
 import React from "react";
+import logoFreelance from '@/img/logos/freelance.svg'
+import logoHorizon from '@/img/logos/horizon-logo.png'
+import logoRMC from '@/img/logos/rmcaarows.png'
+import logoMRM from '@/img/logos/mrm.png'
 import logoAirbnb from "@/img/logos/airbnb.svg";
 import logoFacebook from "@/img/logos/facebook.svg";
 import logoPlanetaria from "@/img/logos/planetaria.svg";
@@ -58,35 +62,35 @@ const Role = ({ role }: { role: Role }) => {
 const Resume = () => {
   let resume: Array<Role> = [
     {
-      company: "Planetaria",
-      title: "CEO",
-      logo: logoPlanetaria,
-      start: "2019",
+      company: 'Freelance',
+      title: 'Full-Stack Developer',
+      logo: logoFreelance,
+      start: '11/17',
       end: {
-        label: "Present",
+        label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: "Airbnb",
-      title: "Product Designer",
-      logo: logoAirbnb,
-      start: "2014",
-      end: "2019",
+      company: 'HorizonPWR/HorizonAMP\'d',
+      title: 'Director of Product Development',
+      logo: logoHorizon,
+      start: '02/20',
+      end: '02/24',
     },
     {
-      company: "Facebook",
-      title: "iOS Software Engineer",
-      logo: logoFacebook,
-      start: "2011",
-      end: "2014",
+      company: 'TRIAD EXCEL MARKETING, INC',
+      title: 'Full-Stack Developer',
+      logo: logoRMC,
+      start: '11/17',
+      end: '02/20',
     },
     {
-      company: "Starbucks",
-      title: "Shift Supervisor",
-      logo: logoStarbucks,
-      start: "2008",
-      end: "2011",
+      company: 'MRM/MCCANN',
+      title: 'Front-End Developer',
+      logo: logoMRM,
+      start: '05/16',
+      end: '11/17',
     },
   ];
   return (
@@ -101,7 +105,7 @@ const Resume = () => {
         ))}
       </ol>
       <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
+        Download Resume
         <BsArrowDown className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
       </Button>
     </div>
