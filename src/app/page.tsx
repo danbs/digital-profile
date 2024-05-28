@@ -22,7 +22,7 @@ const Article = ({article}: { article: ArticleWithSlug }) => {
 };
 const WorKLog = ({workLog}: { workLog: WorkLogWithSlug }) => {
     return (
-        <Card as="workLog">
+        <Card as="article">
             <Card.Title href={`/workLogs/${workLog.slug}`}>
                 {workLog.title}
             </Card.Title>
