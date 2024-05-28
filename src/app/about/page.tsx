@@ -64,7 +64,7 @@ const AboutPage = () => {
                 </div>
                 <div className="lg:order-first lg:row-span-2">
                     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                        I&#39;m Dan Sanchez, based near the Silicon Slopes area in Utah, delivering tailored
+                        I am Dan Sanchez, based near the Silicon Slopes area in Utah, delivering tailored
                         crafted solutions that ignite success.
                     </h1>
                     <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -81,13 +81,13 @@ const AboutPage = () => {
                             excel in all aspects of life.
                         </p>
                         <p>
-                            When I'm not immersed in lines of code, you can often find me exploring the great outdoors.
+                            When I am not immersed in lines of code, you can often find me exploring the great outdoors.
                             Also, soccer is my passion and I follow almost all european and international greatest
                             leagues and competitions.
                         </p>
                         <p>
-                            My curiosity knows no bounds, and I'm constantly seeking new experiences and knowledge.
-                            Whether it's delving into the latest technology trends, experimenting with a new recipe in
+                            My curiosity knows no bounds, and I a constantly seeking new experiences and knowledge.
+                            Whether it is delving into the latest technology trends, experimenting with a new recipe in
                             the kitchen, or losing myself in the pages of a captivating book, I thrive on the thrill of
                             discovery.
                         </p>
