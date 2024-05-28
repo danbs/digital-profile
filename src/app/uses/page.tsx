@@ -50,7 +50,7 @@ const UsesPage = () => {
                     </Tool>
                     <Tool
                         title="Ultimate Multi-Screen Workstation: Dual 35&rsquo;&rsquo; Portrait Monitors, Ultrawide Display, and Laptop Hub">
-                        My workstation setup: two 35" Dell monitors in portrait on the sides, a 16" laptop screen in the
+                        My workstation setup: two 35&ldquo; Dell monitors in portrait on the sides, a 16&ldquo; laptop screen in the
                         center, and a Dell ultrawide monitor above the laptop.
                     </Tool>
                     <Tool title="Keycrhorn K3 Version 2">
