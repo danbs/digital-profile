@@ -1,4 +1,4 @@
-import SimpleLayout from "@/components/SimpleLayout";
+import {SimpleLayout} from "@/components/SimpleLayout";
 import React from "react";
 import logoAnimaginary from "@/img/solar.png";
 import logoCosmos from "@/img/hd-favi.png";

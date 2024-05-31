@@ -1,4 +1,4 @@
-import Container from "@/components/Container";
+import {Container} from "@/components/Container";
 import React from "react";
 // import portraitImage from '@/img/IMG_8139.jpg'
 import Image from "next/image";

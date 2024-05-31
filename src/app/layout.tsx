@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../style/globals.css";
 import { Providers } from "./providers";
-import Layout from "@/components/Layout";
+import {Layout} from "@/components/Layout";
+
+// import '@/styles/tailwind.css'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className="h-full antialiased" suppressHydrationWarning>
+      <body className={`${inter.className} bg-zinc-50 dark:bg-black`}>
         <Providers>
-          <div className="flex w-full bg-black overflow-hidden">
+          <div className="flex w-full  overflow-hidden">
             <Layout>{children}</Layout>
           </div>
         </Providers>

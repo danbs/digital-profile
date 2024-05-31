@@ -1,5 +1,5 @@
 import {Card} from "@/components/Card";
-import Container from "@/components/Container";
+import {Container} from "@/components/Container";
 import Hero from "@/components/Hero";
 import Newsletter from "@/components/Newsletter";
 import Photos from "@/components/Photos";

@@ -1,6 +1,6 @@
 import {Card} from "@/components/Card";
 import Section from "@/components/Section";
-import SimpleLayout from "@/components/SimpleLayout";
+import {SimpleLayout} from "@/components/SimpleLayout";
 import React from "react";
 
 const ToolsSection = ({
