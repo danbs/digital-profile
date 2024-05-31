@@ -1,6 +1,6 @@
 "use client";
 import React, {useContext} from "react";
-import Container from "./Container";
+import {Container} from "./Container";
 import {WorkLogWithSlug} from "@/lib/workLog";
 import {useRouter} from "next/navigation";
 import {AppContext} from "@/app/providers";

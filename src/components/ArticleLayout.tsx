@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext } from "react";
-import Container from "./Container";
+import {Container} from "./Container";
 import { ArticleWithSlug } from "@/lib/article";
 import { useRouter } from "next/navigation";
 import { AppContext } from "@/app/providers";
