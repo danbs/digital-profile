@@ -1,5 +1,5 @@
 import { Card } from "@/components/Card";
-import SimpleLayout from "@/components/SimpleLayout";
+import {SimpleLayout} from "@/components/SimpleLayout";
 import { ArticleWithSlug, getAllArticles } from "@/lib/article";
 import { formatDate } from "@/lib/formateDate";
 import React from "react";
