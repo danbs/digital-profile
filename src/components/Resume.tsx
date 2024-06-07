@@ -63,7 +63,7 @@ const Resume = () => {
   let resume: Array<Role> = [
     {
       company: 'Freelance',
-      title: 'Full-Stack Developer',
+      title: 'Full Stack Software Engineer',
       logo: logoFreelance,
       start: '11/17',
       end: {
@@ -73,14 +73,14 @@ const Resume = () => {
     },
     {
       company: 'HorizonPWR/HorizonAMP\'d',
-      title: 'Director of Product Development',
+      title: 'Full Stack Software Engineer',
       logo: logoHorizon,
       start: '02/20',
       end: '02/24',
     },
     {
       company: 'TRIAD EXCEL MARKETING, INC',
-      title: 'Full-Stack Developer',
+      title: 'Full Stack Software Engineer',
       logo: logoRMC,
       start: '11/17',
       end: '02/20',

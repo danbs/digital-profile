@@ -27,16 +27,17 @@ const Hero = () => {
         <Container className="mt-9 pt-4">
             <div className="max-w-2xl">
                 <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                    Full-stack Developer @ Freelance | Ruby on Rails | Salesforce | Shopify | JavaScript | PHP | HTML |
-                    CSS | Client Focused
+                    Full-Stack Software Engineer @ Freelance | Ruby on Rails | JavaScript| PHP | Salesforce | Shopify |
+                    Client
+                    Focused
                 </h1>
                 <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
 
-                    I&#39;m a highly skilled Full Stack Software Developer with 8+ years&#39; expertise in Javascript,
+                    I am a highly skilled Full Stack Software Developer with 7+ years&#39; expertise in Javascript,
                     Ruby,
-                    SQL, PHP, and experience integrating platforms like Shopify, Salesforce, and more. Managed an IT
-                    department for the last couple of years, ensuring 95% uptime and 88% adoption for cross-departmental
-                    releases within 2 years.
+                    SQL, PHP, and experience integrating platforms like Shopify, Salesforce, and more. I have
+                    significantly impacted numerous startups by fostering cross- departmental collaboration,
+                    streamlining software development, and creating scalable business solutions.
                 </p>
                 <div className="mt-6 flex gap-6">
                     <SocialLink

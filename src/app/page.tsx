@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Newsletter from "@/components/Newsletter";
 import Photos from "@/components/Photos";
 import Resume from "@/components/Resume";
-import {ArticleWithSlug, getAllArticles} from "@/lib/article";
+import {ArticleWithSlug, getAllArticles} from "@/lib/articles";
 import {WorkLogWithSlug, getAllWorkLogs} from "@/lib/workLog";
 import {formatDate} from "@/lib/formateDate";
 

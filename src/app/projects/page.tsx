@@ -34,7 +34,7 @@ const ProjectPage = () => {
             status: 'offline',
             description:
                 "CRM system in charge of onboarding, sales KPI tracking, and solar proposals streamline",
-            link: {href: "http://pwrstation.horizonpwr.com/", label: "pwrstation.horizonpwr.com"},
+            link: {href: "/projects/pwrstation", label: "Overview"},
             logo: logoAnimaginary,
         },
         {
